@@ -1,0 +1,17 @@
+﻿Application ID: com.juanmediahubph.worldclock
+Namespace/base Kotlin package: com.juanmediahubph.worldclock
+Launcher: com.juanmediahubph.worldclock.MainActivity
+Instrumented test APK: com.juanmediahubph.worldclock.test
+
+Checks:
+- Clean rebuild: --no-daemon --offline clean assembleDebug assembleDebugAndroidTest testDebugUnitTest lintDebug succeeded.
+- 9 unit tests passed, including package identity/launcher resolution.
+- Installed instrumented test: OK (1 test), asserts targetContext.packageName and BuildConfig.APPLICATION_ID.
+- Lint: 0 errors, 58 existing warnings.
+- Old and new apps installed together; package list retained separately.
+- New activity resolved and launched; Home empty-state and World Clock title visible in launcher-layout.json.
+- New application process remained alive; scan found no fatal exception, ClassNotFoundException, provider instantiation error, or SecurityException.
+- Last emulator ANR remained the previous historical event in the old application at 00:47:35; none observed for the new app.
+- Initial am start -W wait timed out on the loaded emulator; subsequent UI inspection confirmed successful launch.
+
+Existing app data was not removed or migrated. JSON filenames/field schemas, signing and dependencies were not changed.

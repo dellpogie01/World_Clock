@@ -1,0 +1,3 @@
+Cold launch 1 reached Home. Status: ok TotalTime: 8255
+Cold launch 2 reached Home. Status: ok TotalTime: 8278
+Cold launch 3 reached Home. Status: ok TotalTime: 8811
